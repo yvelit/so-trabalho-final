@@ -1,0 +1,5 @@
+cd C:\Users\yuske.velit\source\repos\Puc Minas\SO\so-trabalho-final\Atividade5
+Calculadora.exe 4 + 5
+Calculadora.exe 10 - 5
+Calculadora.exe 20 / 5
+Calculadora.exe 4 * 5

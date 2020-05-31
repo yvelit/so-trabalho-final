@@ -1,0 +1,2 @@
+Executar como adm
+csc.exe -out:"C:\Users\yuske.velit\source\repos\Puc Minas\SO\so-trabalho-final\Atividade5\Calculadora.exe" "C:\Users\yuske.velit\source\repos\Puc Minas\SO\so-trabalho-final\Atividade5\Program.cs"

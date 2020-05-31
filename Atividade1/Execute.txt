@@ -1,0 +1,2 @@
+cd C:\Users\yuske.velit\source\repos\Puc Minas\SO\so-trabalho-final\Atividade1
+JantarDosFilosofos.exe
