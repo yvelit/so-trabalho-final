@@ -8,6 +8,8 @@ namespace ServicosEmExecucao
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Atividade 9");
+            Console.WriteLine("Alunos: Guilherme Henrique de Aguiar Diniz, Luiz Henrique Gomes Guimarães, Yuske Eduardo Velit Arruda.");
             ServiceController[] servicos;
             servicos = ServiceController.GetServices();
 

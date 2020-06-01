@@ -8,6 +8,8 @@ namespace Calculadora
         {
             try
             {
+                Console.WriteLine("Atividade 5");
+                Console.WriteLine("Alunos: Guilherme Henrique de Aguiar Diniz, Luiz Henrique Gomes Guimarães, Yuske Eduardo Velit Arruda.");
                 Console.WriteLine("CALCULADORA");
                 Console.WriteLine();
 

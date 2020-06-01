@@ -9,6 +9,8 @@ namespace Atividade3
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine("Atividade 3");
+            Console.WriteLine("Alunos: Guilherme Henrique de Aguiar Diniz, Luiz Henrique Gomes Guimarães, Yuske Eduardo Velit Arruda.");
             RecuperaMemoria();
             EsperarParaContinuar();
             RecuperaCPU();

@@ -29,6 +29,8 @@ namespace Atividade1
 
         private static void Main(string[] args)
         {
+            Console.WriteLine("Atividade 1");
+            Console.WriteLine("Alunos: Guilherme Henrique de Aguiar Diniz, Luiz Henrique Gomes Guimarães, Yuske Eduardo Velit Arruda.");
             Thread threadPrincipal = new Thread(new ThreadStart(Start));
 
             threadPrincipal.Start();
