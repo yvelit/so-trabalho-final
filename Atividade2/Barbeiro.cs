@@ -30,6 +30,7 @@ namespace Atividade2
 
 		public void BarbeiroDormindo()
 		{
+			cadeiraOcupada = false;
 			Console.WriteLine("Nenhum cliente...");
 			Console.WriteLine("Barbeiro dormindo...\n");
 			Thread.Sleep(2250);
@@ -44,7 +45,7 @@ namespace Atividade2
 				{
 					if (numeroDeClientes >= cadeiraDeEspera + 1)
 					{
-
+						cadeiraOcupada = true;
 						Console.WriteLine(numeroDeClientes + " chegaram no salão e " + (numeroDeClientes - (cadeiraDeEspera + 1)) + " foram embora.");
 						numeroDeClientes = cadeiraDeEspera + 1;
 					}
@@ -60,12 +61,17 @@ namespace Atividade2
 				Console.WriteLine("Cliente sendo atendido...\n");
 				Thread.Sleep(4000);
 				Console.WriteLine("Cliente atendido!\n");
+				cadeiraOcupada = false;
 		}
 
 		public void run()
 		{
 			while (true)
 			{
+				Semaphore Pool = new Semaphore(0, 1);
+
+				if (cadeiraOcupada) Pool.WaitOne();
+
 				if (numeroDeClientes <= 0)
 				{
 					try
